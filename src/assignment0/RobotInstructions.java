@@ -22,18 +22,16 @@ public class RobotInstructions  {
 		 * 
 		 * The second line causes the support.robot to turn left.  Based on what you see,
 		 * what does "90" represent?
-		 * 
+		 * The amount of degrees the robot turns.
 		 * Run the program as instructed in the lab write-up and observe how the support.robot
 		 * moves in response to the code you see below.
 		 * 
 		 * You will add instructions at the end of the code to cause the support.robot to move
 		 * as you desire.
 		 */
-		robot.forward(60);
-		robot.turnLeft(90);
-		robot.forward(23);
-		robot.turnRight(90);
-		robot.forward(80);
-	}
+		for (int i = 0; i < 5; i++) {
+		    robot.forward(100);
+		    robot.turnRight(144);
+	}}
 
 }
